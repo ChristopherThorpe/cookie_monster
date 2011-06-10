@@ -8,6 +8,7 @@ gem 'rails', '3.0.7'
 gem 'sqlite3'
 gem 'resque'
 gem 'resque_mailer'
+gem 'system_timer'
 
 # Use unicorn as the web server
 # gem 'unicorn'
@@ -37,4 +38,5 @@ group :development, :test do
   gem 'cucumber-rails'
   gem 'launchy'
   gem 'pickle'
+  gem 'tddium-preview'
 end
