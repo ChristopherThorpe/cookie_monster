@@ -1,5 +1,5 @@
 namespace :tddium do
-#  task :redis_hook => :environment
+  desc "tddium environment db setup task"
   task :db_hook do
     Rake::Task['db:setup'].invoke
     Rake::Task['db:migrate'].invoke
