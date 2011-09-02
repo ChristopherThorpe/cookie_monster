@@ -1,2 +1,5 @@
 .tddium.staging
 .tddium-deploy-key.staging
+log/*
+*.swp
+config/database.yml

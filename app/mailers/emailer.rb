@@ -7,9 +7,9 @@ class Emailer < ActionMailer::Base
      @subject = subject
      @recipients = recipient
      @sent_on = sent_at
-         @body["title"] = 'This is title'
-         @body["email"] = 'sender@yourdomain.com'
-         @body["message"] = message
+     @body["title"] = 'This is title'
+     @body["email"] = 'sender@yourdomain.com'
+     @body["message"] = message
      @headers = {}
   end
 

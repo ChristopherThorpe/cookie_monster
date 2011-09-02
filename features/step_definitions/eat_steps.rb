@@ -3,9 +3,11 @@ Given /^resque is started$/ do
 end
 
 Given "the email queue is empty" do
+  steps %Q{
+    Given all email has been delivered
+  }
   CucumberExternalResqueWorker.reset_counter
   Resque.remove_queue(Resque::Mailer)
-  reset_mailer
 end
 
 Given /^the eat queue is empty$/ do
