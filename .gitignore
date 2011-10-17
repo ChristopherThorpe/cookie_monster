@@ -3,3 +3,5 @@
 log/*
 *.swp
 config/database.yml
+.tddium
+.tddium-deploy-key
