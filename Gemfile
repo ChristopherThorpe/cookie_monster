@@ -41,25 +41,5 @@ group :development, :test do
   gem 'launchy'
   gem 'pickle'
   gem 'tddium-preview'
+  gem 'tddium-no-such-gem'
 end
-#foo
-#foo
-#foo
-#foo
-#foo
-#foo
-#foo
-#foo
-#foo
-#foo
-#foo
-#foo
-#foo
-#foo
-#foo
-#foo
-#foo
-#foo
-#foo
-#foo
-#foo
