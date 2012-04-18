@@ -10,6 +10,7 @@ gem 'pg'
 gem 'resque'
 gem 'resque_mailer'
 gem 'system_timer'
+gem "johnson", ">=2.0.0.pre3"
 
 # Use unicorn as the web server
 # gem 'unicorn'
