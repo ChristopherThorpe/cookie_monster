@@ -1,0 +1,5 @@
+.tddium*
+.tddium
+.tddium.staging
+config/database.yml
+log/*
