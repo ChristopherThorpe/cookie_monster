@@ -37,29 +37,8 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'spork'
   gem 'cucumber'
-  gem 'cucumber-rails'
+  gem 'cucumber-rails', :require=>false
   gem 'launchy'
   gem 'pickle'
   gem 'tddium-preview'
 end
-#foo
-#foo
-#foo
-#foo
-#foo
-#foo
-#foo
-#foo
-#foo
-#foo
-#foo
-#foo
-#foo
-#foo
-#foo
-#foo
-#foo
-#foo
-#foo
-#foo
-#foo
